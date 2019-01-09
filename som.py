@@ -16,6 +16,6 @@ sc = MinMaxScaler(feature_range=(0, 1)) # scale all parameters between 0 and 1
 X = sc.fit_transform(X) # normalize X according to scaler sc
 
 # Training SOM
-from MiniSom
+from minisom import MiniSom
 
 print('all fine')
